@@ -3,7 +3,7 @@
 - Website: http://ykhwong.x-y.net
 
 ## INTRODUCTION
-This tool assesses JCLs. Since it also incldues the custom cobol parser, the COBOL files will be also analyzed throughout the JCLs.
+This tool assesses JCLs. Since it also includes the custom cobol parser, the COBOL files will be also analyzed throughout the JCLs.
 
 ## Getting started
 ### Prerequisites
