@@ -59,7 +59,7 @@ do
 		do
 			TYPE2=`echo $sth2 | sed 's/calltree_//' | sed 's/\.lst//' | awk '{print toupper($0)}'`
 			IFS='
-		'
+'
 			for sth3 in `grep -P "^${TYPE} : " "./result/$sth2"`
 			do
 				FIRST=`echo $sth3 | awk -F' : ' '{print $2}'` # TYPE's
@@ -74,4 +74,4 @@ done
 IFS=$TMP_IFS
 
 find $BASE_DIR -print | sed -e "s;$BASE_DIR;\.;g;s;[%/]*\/;|__;g;s;__|; |;g" | perl -pe 's/^(\S+)(\|__)/" " x length($1) . $2/gei'
-rm -rf $BASE_DIR 
+rm -rf $BASE_DIR
