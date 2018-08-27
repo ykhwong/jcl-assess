@@ -44,15 +44,13 @@ For example, if the PATH is set to /src_path and BIND is set to bind, the BIND d
 #### Other lst files
 Open the following files and add the target filenames that you are going to assess.
 
-| File | - |
-| ---- | ---- |
-| bms.lst | Optional |
-| cics.lst | Optional |
-| input.lst | Optional |
-| jcl.lst | Required |
-| util.lst | Required |
-
-You can add any mainframe-specific utilities to the util.lst.
+| File | - | Note | 
+| ---- | ---- | ---- |
+| bms.lst | Optional | |
+| cics.lst | Optional | |
+| input.lst | Optional | |
+| jcl.lst | Required | |
+| util.lst | Required | Any mainframe-specific utilities can be added here |
 
 ### Place all JCLs and COBOLs into the directories
 Copy all JCLs and COBOLs into the directories that you specified in the configuration file.
