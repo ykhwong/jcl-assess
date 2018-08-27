@@ -43,11 +43,14 @@ For example, if the PATH is set to /src_path and BIND is set to bind, the BIND d
 
 #### Other lst files
 Open the following files and add the target filenames that you are going to assess.
-* bms.lst (Optional)
-* cics.lst (Optional)
-* input.lst (Optional)
-* jcl.lst (Required)
-* util.lst (Required)
+
+| File | - |
+| ---- | ---- |
+| bms.lst | Optional |
+| cics.lst | Optional |
+| input.lst | Optional |
+| jcl.lst | Required |
+| util.lst | Required |
 
 You can add any mainframe-specific utilities to the util.lst.
 
