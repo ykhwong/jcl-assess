@@ -27,18 +27,20 @@ $ git clone https://github.com/ykhwong/jcl_assess.git
 ### Configuration
 #### dir.lst
 Go to the config directory and open the dir.lst. Specify the directory path for below.
-```
-PATH= # Main path to the source files (e.g, /src_path) -- Required
-BIND= # Path to the BIND files (e.g, bind) -- Required
-COPY= # Path to the COPY files (e.g, copy) -- Required
-INCLUDE= # Path to the INCLUDE files (e.g, include) -- Required
-JCL= # Path to the JCL files (e.g, jcl) -- Required
-PARM= # Path to the PARM (e.g, parm) -- Required
-PROC= # Path to the PROC (e.g, proc) -- Required
-COBOL= # Path to the COBOL (e.g, cobol) -- Required
-CICS= #Path to the CICS (e.g, cics) -- Optional
-BMS= # Path to the BMS (e.g, bms) -- Optional
-```
+
+| Parameter | Description | Example | - |
+| --------- | --------- | --------- | --------- |
+| PATH= | Main path to the source files | PATH=/src_path | Required |
+| BIND= | Path to the BIND files | BIND=bind | Required |
+| COPY= | Path to the COPY files | COPY=copy | Required |
+| INCLUDE= | Path to the INCLUDE files | INCLUDE=include | Required |
+| JCL= | Path to the JCL files | JCL=jcl | Required |
+| PARM= | Path to the PARM | PARM=parm | Required |
+| PROC= | Path to the PROC | PROC=proc | Required |
+| COBOL= | Path to the COBOL | COBOL=cobol | Required |
+| CICS= |Path to the CICS | CICS=cics | Optional |
+| BMS= | Path to the BMS | BMS=bms | Optional |
+
 For example, if the PATH is set to /src_path and BIND is set to bind, the BIND directory that jcl_assess searches will become /src_path/bind.
 
 #### Other lst files
